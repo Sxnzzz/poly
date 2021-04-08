@@ -1,0 +1,39 @@
+<html>
+	<head>
+
+		<title>senz</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+	</head>
+
+	<body>
+
+		<audio id="divAudio">
+   			<source src="audio.mp3" type="audio/mp3">
+		</audio>
+
+		<script>
+   			var vAudio = document.getElementById("divAudio");
+   			function playMusic()
+   			{
+    		  vAudio.play();
+   			}
+		</script>
+
+		<div onmouseover="playMusic()">
+			<div class="section">
+
+				<h1 style="color:#fff;"> 
+				seraphim
+				</h1>
+
+				<div class="video-container">
+					<video height="1069" autoplay loop muted poster="wrld.jpg"> 
+						<source src="video.mp4" type="video/mp4"> 
+					</video>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
