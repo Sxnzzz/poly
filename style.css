@@ -1,0 +1,36 @@
+body 
+{
+ background-image: url("https://picsum.photos/1920/1080");
+
+}
+
+.mainclass p
+{
+	background-color: coral;
+}
+
+.mainclass .tabsclass
+{
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+  	background-color: rgba(0,0,0, 1);
+
+}
+
+
+.mainclass .tabsclass button
+{
+  	background-color: rgba(255,255,255, .25);
+	border: 2px rgba(255,255,255, .25);
+	color: black;
+	font-size: 40px;
+}
+
+.mainclass .tabsclass button:hover
+{
+  background-color: darkgrey;
+  color: white;
+}
