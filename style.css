@@ -6,7 +6,7 @@ body
 
 .mainclass p
 {
-	background-color: coral;
+
 }
 
 .mainclass .tabsclass
@@ -16,7 +16,7 @@ body
 	left: 50%;
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
-  	background-color: rgba(0,0,0, 1);
+  	background-color: rgba(0,0,0, .45);
 
 }
 
@@ -24,13 +24,14 @@ body
 .mainclass .tabsclass button
 {
   	background-color: rgba(255,255,255, .25);
-	border: 2px rgba(255,255,255, .25);
+	border: 2px rgb(255, 255, 255);
 	color: black;
-	font-size: 40px;
+	font-size: 2vw;
+
 }
 
 .mainclass .tabsclass button:hover
 {
-  background-color: darkgrey;
+  background-color: rgb(99, 99, 99);
   color: white;
 }
