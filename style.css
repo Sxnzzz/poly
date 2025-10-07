@@ -44,10 +44,9 @@ body
     text-align: center;
 }
 
-.infoclass img
+.firstimgset
 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  gap: 0.5vw;
 }
