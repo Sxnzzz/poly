@@ -24,20 +24,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   padding: 20px 10%;
 
   background: #111;
   z-index: 1000;
-}
-
-nav {
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-nav ul {
-  flex-wrap: wrap;
 }
 
 .logo {
@@ -49,6 +41,7 @@ nav ul {
   gap: 40px;
 
   list-style: none;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -69,7 +62,10 @@ nav a:hover {
   min-height: 100vh;
 
   display: flex;
+  justify-content: center;
   align-items: center;
+
+  text-align: center;
 
   background: #222;
   color: white;
